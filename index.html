@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title data-key="siteTitle">Your Agency — Advertising & Page Management</title>
+<link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body class="dark">
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <img id="logo" src="assets/images/logo.svg" alt="logo" />
+        <div class="brand-text">
+          <h1 data-key="siteTitleHeader">PadratoosGroup</h1>
+          <p data-key="siteTagline">for growing your bussines</p>
+        </div>
+      </div>
+      <nav class="nav">
+        <a class="btn" href="#services">Services</a>
+        <a class="btn" href="#about">About</a>
+        <a class="btn" href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h2 data-key="heroTitle">We Scale Pages. Fast.</h2>
+          <p data-key="heroSub">Creative advertising, strategic page management, measurable growth.</p>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="#contact" id="primaryCta" data-key="heroCta">Get a Proposal</a>
+            <a class="btn btn-ghost" href="#services" data-key="heroSecondary">See Services</a>
+          </div>
+        </div>
+        <div class="hero-media">
+          <div class="card">
+            <img src="assets/images/preview.png" alt="preview" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <div class="container">
+        <h3 class="section-title" data-key="servicesTitle">Services</h3>
+        <p class="section-sub" data-key="servicesIntro">Tailored ad strategies, creative production, audience growth.</p>
+        <div class="cards">
+          <article class="service" data-key="service1">
+            <h4>Ads Strategy</h4>
+            <p>Performance-first ad campaigns across platforms (Meta, TikTok, Google).</p>
+          </article>
+          <article class="service" data-key="service2">
+            <h4>Content & Creative</h4>
+            <p>High-converting creatives and copy tailored to your audience.</p>
+          </article>
+          <article class="service" data-key="service3">
+            <h4>Page Management</h4>
+            <p>Full account management, posting schedules, community growth.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="container">
+        <h3 class="section-title" data-key="aboutTitle">About</h3>
+        <p data-key="aboutBody">We are a boutique agency focused on scaling social pages and digital presence. Replace this text with your own story.</p>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container">
+        <h3 class="section-title" data-key="contactTitle">Contact</h3>
+        <p data-key="contactBody">Email us at <a href="mailto:hello@example.com">padratoosgroup@gmail.com</a> or use the form below.</p>
+        <form id="contactForm" class="contact-form" onsubmit="return false;">
+          <input type="text" id="name" placeholder="Your name" required />
+          <input type="email" id="email" placeholder="Email" required />
+          <textarea id="message" placeholder="Brief message"></textarea>
+          <div class="form-row">
+            <button class="btn btn-primary" id="sendBtn">Send message</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>© <span id="year"></span> — <span data-key="siteTitleFooter">created for Farhad Golparvar</span></div>
+      <div class="socials">
+        <a href="#" class="link">Instagram</a>
+      </div>
+    </div>
+  </footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
