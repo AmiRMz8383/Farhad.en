@@ -1,14 +1,9 @@
-
 // main.js - lightweight interactions
 document.addEventListener('DOMContentLoaded', () => {
   // populate year
   document.getElementById('year').textContent = new Date().getFullYear();
 
   // load content.json if available
-  fetch('content.json').then(r => {
-    if (!r.ok) throw new Error('no content');
-    return r.json();
-  }).then(data => {
     Object.keys(data).forEach(key => {
       const els = document.querySelectorAll('[data-key="' + key + '"]');
       els.forEach(el => {
